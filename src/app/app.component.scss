@@ -1,0 +1,33 @@
+.timer {
+    width: 500px;
+    height: auto;
+    padding: 1rem;
+    border: 1px solid silver;
+    margin-top: 5rem;
+
+    .timer__header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .header__num {
+            font-size: 2rem;
+        }
+
+    }
+
+    .timer__wrapper-button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+
+        .button {
+            width: 150px;
+            padding: 0.5rem 1rem;
+            margin: 0 1rem;
+        }
+
+    }
+
+}
